@@ -1,0 +1,72 @@
+.root{--primary-color: #A82C4B;
+    --secondary-color: #43121d;
+      --third-color: #f98169;
+       --white-color: #fff;
+       --text-color: #555;
+       --text-gray: #999;
+       --black-color: #000;
+       --primary-font: 'Robot', sans-serif;
+       --secondary-font: 'Quicksand', sans-serif;
+   }
+
+        
+.pro{color:#999 ;}
+
+body {
+    height: 100vh;
+    background-image: url('stacked-steps-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: backgroundAnimation 5s infinite linear alternate-reverse;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+
+.box{text-align: center;
+background-color: #43121d;
+width: 550px;
+height: 1090px;
+margin-left: 1500px;}
+
+
+.box h1{font-size: 120px;
+       padding-top: 120px;
+    color: #fff;}
+ 
+ .box p{font-size: 20px;
+       color: #999;
+       }   
+  
+ .box input  { width: 470px;
+                   height: 100px;
+                  margin-top: 25px;
+                  border-radius: 10px;
+                 background-color: #999;
+                 
+                 }    
+                  
+   .info1{font-size: 50px;
+    width: 470px;
+    height: 100px;
+   margin-top: 40px;
+   border-radius: 10px;
+   background-color: #f98169;}               
+
+.box ::placeholder{font-size: 40px;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+
+ .info2{text-decoration: none;
+      color: #f98169;
+    font-size: 25px;
+   }                 
+
